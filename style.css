@@ -1,0 +1,233 @@
+/* ========================================== */
+/*     MYSPACE EMO / SCENE 2000s THEME        */
+/* ========================================== */
+
+body {
+    background-color: #000000 !important;
+    background-image: radial-gradient(circle, #1a0000 0%, #000000 100%) !important;
+    color: #ff0055 !important;
+    font-family: "Courier New", Courier, monospace !important;
+    margin: 0;
+    padding: 0;
+    cursor: crosshair;
+}
+
+/* Links berrantes com sublinhado duplo */
+a {
+    color: #00ffff !important;
+    text-decoration: underline wavy #ff00ff !important;
+}
+
+a:hover {
+    color: #ff0000 !important;
+    background-color: #ffff00;
+}
+
+/* Header & Nav */
+header {
+    background: #111 !important;
+    border-bottom: 3px dashed #ff0055 !important;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff00ff !important;
+    text-shadow: 2px 2px #00ffff;
+}
+
+.logo span {
+    color: #00ffff !important;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: #ffff00 !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #ff0055 !important;
+}
+
+.burger div {
+    background-color: #ff0055;
+}
+
+/* Seções Estilo Perfil do MySpace */
+section {
+    border: 2px dashed #ff00ff !important;
+    background-color: #0a0a0a !important;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    box-shadow: 5px 5px 0px #ff0000;
+}
+
+.section-title {
+    color: #00ffff !important;
+    border-bottom: 2px dotted #00ffff;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Hero / Topo */
+.hero {
+    text-align: center;
+    background: #000 !important;
+}
+
+.hero-content h1 {
+    color: #ff0055 !important;
+    text-shadow: 3px 3px #00ffff;
+}
+
+.hero-content h2 {
+    color: #ffff00 !important;
+}
+
+.hero-content p {
+    color: #ffffff !important;
+}
+
+/* Sobre Mim & Imagens */
+.about-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.about-img img {
+    border: 3px solid #ff00ff !important;
+    filter: grayscale(80%) contrast(150%); /* Deixa a foto com aquela vibe escura */
+}
+
+.about-text p {
+    color: #cccccc !important;
+}
+
+/* Caixas de Skills (Badges Emo) */
+.skills span {
+    background-color: #220011 !important;
+    border: 1px solid #ff0055 !important;
+    color: #ff00ff !important;
+    padding: 3px 8px;
+    margin-right: 5px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+/* Qualificações / Timeline */
+.qualification h3 {
+    color: #ffff00 !important;
+}
+
+.timeline-item {
+    border-left: 2px dotted #ff0055;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.timeline-item h4 {
+    color: #00ffff !important;
+    margin: 0;
+}
+
+.timeline-item p {
+    color: #999999 !important;
+    margin: 5px 0 0 0;
+}
+
+.certificates img {
+    border: 2px dashed #ffff00;
+}
+
+/* Cards de Projetos */
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+.project-card {
+    background: #110011 !important;
+    border: 2px solid #00ffff !important;
+    padding: 15px;
+}
+
+.project-card img {
+    border: 1px solid #ff0055;
+    filter: hue-rotate(90deg);
+}
+
+.project-card h3 {
+    color: #ff00ff !important;
+}
+
+.project-card p {
+    color: #ddd !important;
+}
+
+/* Botões Estilo Anos 2000 */
+.btn {
+    background-color: #ff0055 !important;
+    color: #ffffff !important;
+    border: 2px outset #ff00ff !important;
+    font-family: "Courier New", Courier, monospace !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #00ffff !important;
+    color: #000000 !important;
+    border: 2px inset #00ffff !important;
+}
+
+/* Contato & Formulário */
+.contact-info p {
+    color: #ffff00 !important;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background-color: #000000 !important;
+    border: 2px dashed #ff0055 !important;
+    color: #00ffff !important;
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: "Courier New", Courier, monospace !important;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #660033 !important;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background: #000 !important;
+    border-top: 3px dashed #00ffff !important;
+    color: #ff00ff !important;
+    padding: 15px;
+    margin-top: 30px;
+}
